@@ -37,18 +37,29 @@ function App() {
               <div className='Tituanuncio'>
                 <h1>Pokébola Clássica - Capture Seus Companheiros com Estilo!</h1>
               </div>
+              <div className='Colunadeimagens'>
+                <div>
+                  <img className='ImgSeg1'
+                    src={Imgseg1} alt="imagem segundaria1" />
+                </div>
+                <div>
+                  <img className='ImgSeg1'
+                    src={Imgseg1} alt="imagem segundaria1" />
+                </div>
+                <div>
+                  <img className='ImgSeg1'
+                    src={Imgseg1} alt="imagem segundaria1" />
+                </div>
+              </div>
               <div className='Preço'>R$ 20,00</div>
               <div className='botoes'>
                 <div><button className='Comprar' type='button'>Comprar</button></div> <br />
                 <div><button className='Carrinho' type='button'> Adicionar ao Carrinho</button></div>
-                <div>
-                <img className='ImgSeg1'
-              src={Imgseg1} alt="imagem segundaria1" />
+
               </div>
-              </div>
-         
+
             </div>
-       
+
 
           </div>
         </div>
